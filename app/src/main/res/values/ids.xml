@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtCConfirmPsw" type="id" />
+    <item name="CConfirmPswContainer" type="id" />
+    <item name="NewPswContainer" type="id" />
+    <item name="edtCNewPsw" type="id" />
+    <item name="btnCSubmit" type="id" />
+    <item name="edtCOldPsw" type="id" />
+    <item name="OldPswContainer" type="id" />
+    <item name="edtCEmail" type="id" />
+    <item name="CEmailContainer" type="id" />
+</resources>

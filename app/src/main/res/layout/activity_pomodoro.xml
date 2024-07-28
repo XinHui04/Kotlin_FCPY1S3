@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF6FF"
+    tools:context=".Pomodoro">
+
+    <FrameLayout
+        android:id="@+id/timerLayout"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#FFEAF6FF"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/progressbar_bg"
+            android:indeterminate="false"
+            android:max="10"
+            android:maxWidth="48dip"
+            android:progress="10"
+            android:progressDrawable="@drawable/black_progressbar_bg"
+            android:rotation="-90">
+
+        </ProgressBar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="sec time left"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/btnSettime"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="248dp"
+        android:background="#FFEAF6FF"
+        android:scaleType="fitXY"
+        android:src="@drawable/add_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnRestart"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="248dp"
+        android:background="#FFEAF6FF"
+        android:scaleType="fitXY"
+        android:src="@drawable/replay_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startButton"
+        android:layout_width="129dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/gradient_green"
+        android:text="Start"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="#F9FFFF"-->
+    <!--        android:gravity="center"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/timerTextView"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="25:00"-->
+    <!--            android:textSize="36sp" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/startButton"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:background="@drawable/gradient_green"-->
+    <!--            android:text="Start" />-->
+    <!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

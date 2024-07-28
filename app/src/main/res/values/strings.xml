@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Planetory</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="email">Email</string>
+    <string name="require">Require</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="Old_Password" />
+    <string name="Password">Old Password\n</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password\n</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirm_npsw">Confirm New Password</string>
+    <string name="About_Planetory">\"Planetory\" is the ultimate study planner app designed to revolutionize your academic journey. Seamlessly blending the power of planning (Plan) with the precision of tracking trajectories, this innovative tool ensures you stay on course to academic success. With Planetory, you can effortlessly organize your study plans, set achievable goals, and track your progress with precision. Whether you\'re a student preparing for exams, a professional expanding your knowledge, or a lifelong learner chasing your dreams, Planetory empowers you to maximize efficiency and achieve your educational milestones. Say goodbye to scattered notes and missed deadlines – with Planetory, your path to success is clear and achievable.</string>
+    <string name="Concept_Planetory">Our initial concept of the name \"Planetory\" is the combination of the word \"Plan\" and the word \"Trajectory\".</string>
+</resources>

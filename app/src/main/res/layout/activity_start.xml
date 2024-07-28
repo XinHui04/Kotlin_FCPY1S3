@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ralf_schmitz"
+    android:orientation="vertical"
+    tools:context=".Start">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="493dp"
+        app:srcCompat="@drawable/lightbulb_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSsignUp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/round_corner_button"
+            android:backgroundTint="#8000B8D4"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Sign Up"
+
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="498dp" />
+
+        <Button
+            android:id="@+id/btnSlogin"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/round_corner_button"
+            android:backgroundTint="#8000B8D4"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Login"
+
+            android:textSize="28sp"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="558dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

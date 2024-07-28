@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ralf_schmitz"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="257dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        app:srcCompat="@drawable/smilingpanda" />-->
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Change Password"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_email_24" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/CEmailContainer"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                app:helperTextTextColor="#E91E63"
+                android:layout_marginVertical="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCEmail"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:inputType="none"
+                    android:lines="1"
+                    android:editable="false"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/OldPswContainer"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                app:helperText="@string/require"
+                app:helperTextTextColor="#E91E63"
+                app:passwordToggleEnabled="true">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCOldPsw"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/old_password"
+                    android:inputType="textPassword"
+                    android:lines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/newpsw_icon" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/NewPswContainer"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                app:helperText="@string/require"
+                app:helperTextTextColor="#E91E63"
+                app:passwordToggleEnabled="true">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCNewPsw"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newPassword"
+                    android:inputType="textPassword"
+                    android:lines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_password_24" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/CConfirmPswContainer"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                app:helperText="@string/require"
+                app:helperTextTextColor="#E91E63"
+                app:passwordToggleEnabled="true">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCConfirmPsw"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/confirm_npsw"
+                    android:inputType="textPassword"
+                    android:lines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="10dp">
+
+        <Button
+            android:id="@+id/btnCSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_corner_button"
+            android:backgroundTint="#B300B8D4"
+            android:fontFamily="@font/ubuntu_medium"
+            android:paddingHorizontal="20dp"
+            android:text="UPDATE"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

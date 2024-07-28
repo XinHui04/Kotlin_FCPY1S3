@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "741958051223",
+    "project_id": "smarty-pandas",
+    "storage_bucket": "smarty-pandas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741958051223:android:5fd54da4a42ad3ab1e90d2",
+        "android_client_info": {
+          "package_name": "com.example.planetory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXRfnmBwnhIQ-s9NXoQwByjOc8p2Z3O7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

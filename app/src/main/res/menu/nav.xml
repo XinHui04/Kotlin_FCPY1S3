@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_info"
+        android:title="About Us"
+        android:icon="@drawable/info_icon"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Setting"
+        android:icon="@drawable/setting_icon"/>
+
+    <item
+        android:id="@+id/nav_signUp"
+        android:title="Create New Account"
+        android:icon="@drawable/signup_icon"/>
+
+    <item
+        android:id="@+id/nav_login"
+        android:title="Change Account"
+        android:icon="@drawable/login_icon"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout_icon"/>
+</menu>
